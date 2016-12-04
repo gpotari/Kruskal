@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wKq-ZV-yad">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Kruskal Map View Controller-->
+        <scene sceneID="GWd-lm-hHb">
+            <objects>
+                <viewController id="wKq-ZV-yad" customClass="KruskalMapViewController" customModule="Kruskal_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wQZ-gw-V21"/>
+                        <viewControllerLayoutGuide type="bottom" id="5sw-Im-zt5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cg2-ou-eUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="B82-4a-j9n">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <outlet property="delegate" destination="wKq-ZV-yad" id="5cX-U7-Jjl"/>
+                                </connections>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HNR-24-61F">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="WZw-ep-Hoq"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="add" id="Oke-A9-2qQ"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Vfn-z2-sdP"/>
+                                    <barButtonItem systemItem="play" id="af0-dR-rYp"/>
+                                    <barButtonItem systemItem="flexibleSpace" id="Sy2-U8-DI5"/>
+                                    <barButtonItem systemItem="trash" id="5Dl-uB-eHT"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HNR-24-61F" secondAttribute="trailing" id="7tE-Dn-QY9"/>
+                            <constraint firstItem="B82-4a-j9n" firstAttribute="leading" secondItem="Cg2-ou-eUQ" secondAttribute="leading" id="CVz-7F-lvC"/>
+                            <constraint firstItem="B82-4a-j9n" firstAttribute="top" secondItem="Cg2-ou-eUQ" secondAttribute="top" id="Hut-LD-lRm"/>
+                            <constraint firstItem="5sw-Im-zt5" firstAttribute="top" secondItem="B82-4a-j9n" secondAttribute="bottom" id="MFq-Jw-9qR"/>
+                            <constraint firstItem="5sw-Im-zt5" firstAttribute="top" secondItem="HNR-24-61F" secondAttribute="bottom" id="iEL-4y-pBU"/>
+                            <constraint firstAttribute="trailing" secondItem="B82-4a-j9n" secondAttribute="trailing" id="nuF-Zz-PbI"/>
+                            <constraint firstItem="HNR-24-61F" firstAttribute="leading" secondItem="Cg2-ou-eUQ" secondAttribute="leading" id="yst-W7-yG3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomToolBar" destination="HNR-24-61F" id="ALe-4N-lh9"/>
+                        <outlet property="map" destination="B82-4a-j9n" id="MQi-wc-QSE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3gw-z9-NPl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-412" y="-158.77061469265368"/>
+        </scene>
+    </scenes>
+</document>

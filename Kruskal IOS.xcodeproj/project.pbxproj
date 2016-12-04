@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86B8AEAA1DF4A39300569C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8AEA91DF4A39300569C26 /* AppDelegate.swift */; };
+		86B8AEAC1DF4A39300569C26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8AEAB1DF4A39300569C26 /* ViewController.swift */; };
+		86B8AEAF1DF4A39300569C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B8AEAD1DF4A39300569C26 /* Main.storyboard */; };
+		86B8AEB21DF4A39300569C26 /* Kruskal_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86B8AEB01DF4A39300569C26 /* Kruskal_IOS.xcdatamodeld */; };
+		86B8AEB41DF4A39300569C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B8AEB31DF4A39300569C26 /* Assets.xcassets */; };
+		86B8AEB71DF4A39300569C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B8AEB51DF4A39300569C26 /* LaunchScreen.storyboard */; };
+		86B8AEC21DF4A39300569C26 /* Kruskal_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8AEC11DF4A39300569C26 /* Kruskal_IOSTests.swift */; };
+		86B8AECD1DF4A39300569C26 /* Kruskal_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8AECC1DF4A39300569C26 /* Kruskal_IOSUITests.swift */; };
+		86B8AEDD1DF4A62400569C26 /* kruskal.gif in Resources */ = {isa = PBXBuildFile; fileRef = 86B8AEDC1DF4A62400569C26 /* kruskal.gif */; };
+		86B8AEDF1DF4A77C00569C26 /* KruskalMap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B8AEDE1DF4A77C00569C26 /* KruskalMap.storyboard */; };
+		86B8AEE11DF4A7D400569C26 /* KruskalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8AEE01DF4A7D400569C26 /* KruskalMapViewController.swift */; };
+		86B8AEE31DF4ABC400569C26 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B8AEE21DF4ABC400569C26 /* new.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86B8AEBE1DF4A39300569C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B8AE9E1DF4A39300569C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B8AEA51DF4A39300569C26;
+			remoteInfo = "Kruskal IOS";
+		};
+		86B8AEC91DF4A39300569C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B8AE9E1DF4A39300569C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B8AEA51DF4A39300569C26;
+			remoteInfo = "Kruskal IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86B8AEA61DF4A39300569C26 /* Kruskal IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kruskal IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B8AEA91DF4A39300569C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86B8AEAB1DF4A39300569C26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86B8AEAE1DF4A39300569C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86B8AEB11DF4A39300569C26 /* Kruskal_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kruskal_IOS.xcdatamodel; sourceTree = "<group>"; };
+		86B8AEB31DF4A39300569C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86B8AEB61DF4A39300569C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86B8AEB81DF4A39300569C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B8AEBD1DF4A39300569C26 /* Kruskal IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kruskal IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B8AEC11DF4A39300569C26 /* Kruskal_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal_IOSTests.swift; sourceTree = "<group>"; };
+		86B8AEC31DF4A39300569C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B8AEC81DF4A39300569C26 /* Kruskal IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kruskal IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B8AECC1DF4A39300569C26 /* Kruskal_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal_IOSUITests.swift; sourceTree = "<group>"; };
+		86B8AECE1DF4A39300569C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B8AEDC1DF4A62400569C26 /* kruskal.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = kruskal.gif; sourceTree = "<group>"; };
+		86B8AEDE1DF4A77C00569C26 /* KruskalMap.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KruskalMap.storyboard; sourceTree = "<group>"; };
+		86B8AEE01DF4A7D400569C26 /* KruskalMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KruskalMapViewController.swift; sourceTree = "<group>"; };
+		86B8AEE21DF4ABC400569C26 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B8AEA31DF4A39300569C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B8AEBA1DF4A39300569C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B8AEC51DF4A39300569C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B8AE9D1DF4A39300569C26 = {
+			isa = PBXGroup;
+			children = (
+				86B8AEA81DF4A39300569C26 /* Kruskal IOS */,
+				86B8AEC01DF4A39300569C26 /* Kruskal IOSTests */,
+				86B8AECB1DF4A39300569C26 /* Kruskal IOSUITests */,
+				86B8AEA71DF4A39300569C26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86B8AEA71DF4A39300569C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B8AEA61DF4A39300569C26 /* Kruskal IOS.app */,
+				86B8AEBD1DF4A39300569C26 /* Kruskal IOSTests.xctest */,
+				86B8AEC81DF4A39300569C26 /* Kruskal IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B8AEA81DF4A39300569C26 /* Kruskal IOS */ = {
+			isa = PBXGroup;
+			children = (
+				86B8AEDB1DF4A62400569C26 /* Resources */,
+				86B8AEDA1DF4A48400569C26 /* model */,
+				86B8AEA91DF4A39300569C26 /* AppDelegate.swift */,
+				86B8AEAB1DF4A39300569C26 /* ViewController.swift */,
+				86B8AEAD1DF4A39300569C26 /* Main.storyboard */,
+				86B8AEB31DF4A39300569C26 /* Assets.xcassets */,
+				86B8AEB51DF4A39300569C26 /* LaunchScreen.storyboard */,
+				86B8AEB81DF4A39300569C26 /* Info.plist */,
+				86B8AEB01DF4A39300569C26 /* Kruskal_IOS.xcdatamodeld */,
+				86B8AEDE1DF4A77C00569C26 /* KruskalMap.storyboard */,
+				86B8AEE01DF4A7D400569C26 /* KruskalMapViewController.swift */,
+			);
+			path = "Kruskal IOS";
+			sourceTree = "<group>";
+		};
+		86B8AEC01DF4A39300569C26 /* Kruskal IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				86B8AEC11DF4A39300569C26 /* Kruskal_IOSTests.swift */,
+				86B8AEC31DF4A39300569C26 /* Info.plist */,
+			);
+			path = "Kruskal IOSTests";
+			sourceTree = "<group>";
+		};
+		86B8AECB1DF4A39300569C26 /* Kruskal IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86B8AECC1DF4A39300569C26 /* Kruskal_IOSUITests.swift */,
+				86B8AECE1DF4A39300569C26 /* Info.plist */,
+			);
+			path = "Kruskal IOSUITests";
+			sourceTree = "<group>";
+		};
+		86B8AEDA1DF4A48400569C26 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		86B8AEDB1DF4A62400569C26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86B8AEE21DF4ABC400569C26 /* new.png */,
+				86B8AEDC1DF4A62400569C26 /* kruskal.gif */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B8AEA51DF4A39300569C26 /* Kruskal IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B8AED11DF4A39300569C26 /* Build configuration list for PBXNativeTarget "Kruskal IOS" */;
+			buildPhases = (
+				86B8AEA21DF4A39300569C26 /* Sources */,
+				86B8AEA31DF4A39300569C26 /* Frameworks */,
+				86B8AEA41DF4A39300569C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kruskal IOS";
+			productName = "Kruskal IOS";
+			productReference = 86B8AEA61DF4A39300569C26 /* Kruskal IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86B8AEBC1DF4A39300569C26 /* Kruskal IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B8AED41DF4A39300569C26 /* Build configuration list for PBXNativeTarget "Kruskal IOSTests" */;
+			buildPhases = (
+				86B8AEB91DF4A39300569C26 /* Sources */,
+				86B8AEBA1DF4A39300569C26 /* Frameworks */,
+				86B8AEBB1DF4A39300569C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B8AEBF1DF4A39300569C26 /* PBXTargetDependency */,
+			);
+			name = "Kruskal IOSTests";
+			productName = "Kruskal IOSTests";
+			productReference = 86B8AEBD1DF4A39300569C26 /* Kruskal IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86B8AEC71DF4A39300569C26 /* Kruskal IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B8AED71DF4A39300569C26 /* Build configuration list for PBXNativeTarget "Kruskal IOSUITests" */;
+			buildPhases = (
+				86B8AEC41DF4A39300569C26 /* Sources */,
+				86B8AEC51DF4A39300569C26 /* Frameworks */,
+				86B8AEC61DF4A39300569C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B8AECA1DF4A39300569C26 /* PBXTargetDependency */,
+			);
+			name = "Kruskal IOSUITests";
+			productName = "Kruskal IOSUITests";
+			productReference = 86B8AEC81DF4A39300569C26 /* Kruskal IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B8AE9E1DF4A39300569C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Potari Gabor";
+				TargetAttributes = {
+					86B8AEA51DF4A39300569C26 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DH2WB68EK8;
+						ProvisioningStyle = Automatic;
+					};
+					86B8AEBC1DF4A39300569C26 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DH2WB68EK8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86B8AEA51DF4A39300569C26;
+					};
+					86B8AEC71DF4A39300569C26 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DH2WB68EK8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86B8AEA51DF4A39300569C26;
+					};
+				};
+			};
+			buildConfigurationList = 86B8AEA11DF4A39300569C26 /* Build configuration list for PBXProject "Kruskal IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86B8AE9D1DF4A39300569C26;
+			productRefGroup = 86B8AEA71DF4A39300569C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B8AEA51DF4A39300569C26 /* Kruskal IOS */,
+				86B8AEBC1DF4A39300569C26 /* Kruskal IOSTests */,
+				86B8AEC71DF4A39300569C26 /* Kruskal IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86B8AEA41DF4A39300569C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B8AEDD1DF4A62400569C26 /* kruskal.gif in Resources */,
+				86B8AEB71DF4A39300569C26 /* LaunchScreen.storyboard in Resources */,
+				86B8AEB41DF4A39300569C26 /* Assets.xcassets in Resources */,
+				86B8AEDF1DF4A77C00569C26 /* KruskalMap.storyboard in Resources */,
+				86B8AEE31DF4ABC400569C26 /* new.png in Resources */,
+				86B8AEAF1DF4A39300569C26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B8AEBB1DF4A39300569C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B8AEC61DF4A39300569C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B8AEA21DF4A39300569C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B8AEAC1DF4A39300569C26 /* ViewController.swift in Sources */,
+				86B8AEB21DF4A39300569C26 /* Kruskal_IOS.xcdatamodeld in Sources */,
+				86B8AEAA1DF4A39300569C26 /* AppDelegate.swift in Sources */,
+				86B8AEE11DF4A7D400569C26 /* KruskalMapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B8AEB91DF4A39300569C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B8AEC21DF4A39300569C26 /* Kruskal_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B8AEC41DF4A39300569C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B8AECD1DF4A39300569C26 /* Kruskal_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86B8AEBF1DF4A39300569C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B8AEA51DF4A39300569C26 /* Kruskal IOS */;
+			targetProxy = 86B8AEBE1DF4A39300569C26 /* PBXContainerItemProxy */;
+		};
+		86B8AECA1DF4A39300569C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B8AEA51DF4A39300569C26 /* Kruskal IOS */;
+			targetProxy = 86B8AEC91DF4A39300569C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86B8AEAD1DF4A39300569C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B8AEAE1DF4A39300569C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86B8AEB51DF4A39300569C26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B8AEB61DF4A39300569C26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86B8AECF1DF4A39300569C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86B8AED01DF4A39300569C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86B8AED21DF4A39300569C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DH2WB68EK8;
+				INFOPLIST_FILE = "Kruskal IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.potarig.kruskal.Kruskal-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		86B8AED31DF4A39300569C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DH2WB68EK8;
+				INFOPLIST_FILE = "Kruskal IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.potarig.kruskal.Kruskal-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		86B8AED51DF4A39300569C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DH2WB68EK8;
+				INFOPLIST_FILE = "Kruskal IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.potarig.kruskal.Kruskal-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kruskal IOS.app/Kruskal IOS";
+			};
+			name = Debug;
+		};
+		86B8AED61DF4A39300569C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DH2WB68EK8;
+				INFOPLIST_FILE = "Kruskal IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.potarig.kruskal.Kruskal-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kruskal IOS.app/Kruskal IOS";
+			};
+			name = Release;
+		};
+		86B8AED81DF4A39300569C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DH2WB68EK8;
+				INFOPLIST_FILE = "Kruskal IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.potarig.kruskal.Kruskal-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Kruskal IOS";
+			};
+			name = Debug;
+		};
+		86B8AED91DF4A39300569C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DH2WB68EK8;
+				INFOPLIST_FILE = "Kruskal IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.potarig.kruskal.Kruskal-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Kruskal IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B8AEA11DF4A39300569C26 /* Build configuration list for PBXProject "Kruskal IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B8AECF1DF4A39300569C26 /* Debug */,
+				86B8AED01DF4A39300569C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B8AED11DF4A39300569C26 /* Build configuration list for PBXNativeTarget "Kruskal IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B8AED21DF4A39300569C26 /* Debug */,
+				86B8AED31DF4A39300569C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86B8AED41DF4A39300569C26 /* Build configuration list for PBXNativeTarget "Kruskal IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B8AED51DF4A39300569C26 /* Debug */,
+				86B8AED61DF4A39300569C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86B8AED71DF4A39300569C26 /* Build configuration list for PBXNativeTarget "Kruskal IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B8AED81DF4A39300569C26 /* Debug */,
+				86B8AED91DF4A39300569C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86B8AEB01DF4A39300569C26 /* Kruskal_IOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86B8AEB11DF4A39300569C26 /* Kruskal_IOS.xcdatamodel */,
+			);
+			currentVersion = 86B8AEB11DF4A39300569C26 /* Kruskal_IOS.xcdatamodel */;
+			path = Kruskal_IOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86B8AE9E1DF4A39300569C26 /* Project object */;
+}
