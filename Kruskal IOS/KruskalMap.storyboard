@@ -35,9 +35,17 @@
                                 <items>
                                     <barButtonItem systemItem="add" id="Oke-A9-2qQ"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Vfn-z2-sdP"/>
-                                    <barButtonItem systemItem="play" id="af0-dR-rYp"/>
+                                    <barButtonItem systemItem="play" id="af0-dR-rYp">
+                                        <connections>
+                                            <action selector="playButtonClicked:" destination="wKq-ZV-yad" id="A94-eB-R50"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem systemItem="flexibleSpace" id="Sy2-U8-DI5"/>
-                                    <barButtonItem systemItem="trash" id="5Dl-uB-eHT"/>
+                                    <barButtonItem systemItem="trash" id="5Dl-uB-eHT">
+                                        <connections>
+                                            <action selector="deleteButtonClicked:" destination="wKq-ZV-yad" id="iSb-1h-Byd"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
